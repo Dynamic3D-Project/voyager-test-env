@@ -2494,6 +2494,22 @@ voyager-explorer {
   background-color: #0089bf;
   box-shadow: 0 0 6px black;
 }
+.sv-property.sv-property-options .sv-property-field {
+  background-color: rgb(26.5, 26.5, 26.5);
+  flex: 1 1 auto;
+  min-width: auto;
+  max-width: 20ch;
+  line-height: 1.35;
+  margin: 2px;
+  padding: 2px;
+  color: inherit;
+  border: none;
+}
+.sv-property.sv-property-options .sv-property-field .ff-input {
+  box-sizing: border-box;
+  width: 100%;
+  background: none;
+}
 .sv-property.sv-property-options .sv-options-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -3168,6 +3184,7 @@ ff-tab-header label, ff-dock-panel-header label {
   min-height: 180px;
   padding: 12px;
   background: #343434;
+  box-sizing: content-box;
   pointer-events: auto;
 }
 .sv-light-menu > .ff-flex-column {
